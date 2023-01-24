@@ -1,13 +1,13 @@
-import React from 'react'
-import Cart from './components/Cart'
-import ProductList from './components/ProductList'
+import React from "react";
+import Cart from "./containers/Cart";
+import ProductList from "./containers/ProductList";
 
-function App() {
+const App = () => {
   return (
-    <div className='container'>
+    <div className="container">
       <div className="row">
         <div className="col-md-12">
-          <h1>Shopping Cart</h1>
+          <h1>React+Redux Shopping Cart Example</h1>
         </div>
       </div>
       <div className="row">
@@ -18,8 +18,9 @@ function App() {
           <Cart />
         </div>
       </div>
-    </div>
-  )
-}
 
-export default App
+    </div>
+  );
+};
+
+export default App;
